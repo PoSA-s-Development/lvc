@@ -1,5 +1,5 @@
 --------------------COMMUNITY ID-------------------
-community_id = ''
+community_id = 'posarp'
 --	Sets a prefix for saved values at the user end, without this people who play on multiple LVC server could face conflicts. **Once set DO NOT CHANGE. It will result in loss of data for end users.**
 --		I recommend something short (4-6 characters) for example a community abbreviation. SPACES ARE NOT ALLOWED.
 
@@ -29,7 +29,7 @@ main_siren_settings_masterswitch = true
 --	Enables users to rename siren tones, change siren options. (Cycle / Button) 
 park_kill_masterswitch = true
 --	Enables park kill functionality. Setting this to false will not allow users to change from default behaviour this. 
-park_kill_default = false
+park_kill_default = true
 --	Default setting for park kill mode. (default: true)
 airhorn_interrupt_masterswitch = true
 --	Enables ability to toggle air horn interrupt. Setting this to false will not allow users to change from default behaviour this. 
@@ -72,4 +72,4 @@ default_reminder_volume = 0.09
 
 
 ------------------PLUG-IN SUPPORT------------------
-plugins_installed = false
+plugins_installed = true
